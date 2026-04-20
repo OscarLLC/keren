@@ -145,4 +145,13 @@ footer {
   .container_descripcion {
     width: 100%;
   }
+  li {
+    margin-right: 25px;
+  }
+  .container_algo_sobre_mi {
+    width: 100%;
+  }
+  .container_contactanos {
+    width: 100%;
+  }
 }
