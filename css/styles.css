@@ -145,8 +145,13 @@ footer {
   .container_descripcion {
     width: 100%;
   }
+  ol {
+    display: block;
+    text-align: center;
+  }
   li {
     margin-right: 25px;
+    margin-top: 25px;
   }
   .container_algo_sobre_mi {
     width: 100%;
