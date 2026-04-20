@@ -1,0 +1,148 @@
+#id_image {
+  width: 350px;
+  height: 400px;
+}
+
+.container_image {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ol {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+li {
+  margin-right: 50px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+li:hover {
+  color: aqua;
+}
+.container-hiro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  color: #056fff;
+}
+.text-hiro {
+  color: palevioletred;
+}
+.container_algo_sobre_mi {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+.container-sub_algo_sobre_mi {
+  display: flex;
+  justify-content: space-between;
+}
+.img_galeria {
+  width: 300px;
+  margin-right: 15px;
+}
+.container_contactanos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 35px;
+  padding: 25px;
+  background-color: #f47cc6;
+}
+.text-contactanos {
+  color: white;
+}
+.icon_contactanos {
+  width: 70px;
+  margin-right: 25px;
+}
+input {
+  padding: 7px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  border-style: hidden;
+}
+button {
+  height: 30px;
+  width: 100px;
+  margin: 15px 0 0 0;
+  background-color: #056fff;
+  color: white;
+  border-style: hidden;
+  border: 1px solid;
+  border-radius: 5px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.container_descripcion {
+  display: flex;
+  justify-content: space-around;
+  width: 265px;
+}
+
+/**media querys**/
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    display: block;
+  }
+  .container_logo {
+    display: flex;
+    justify-content: center;
+  }
+  .container-hiro {
+    display: block;
+    margin-top: 40px;
+  }
+  .text-hiro {
+    text-align: center;
+  }
+  .hiro_image {
+    display: flex;
+    justify-content: center;
+  }
+  .algo_sobre_mi {
+    text-align: center;
+  }
+  .container-sub_algo_sobre_mi {
+    display: block;
+  }
+  .container_imagen_sobre_mi {
+    display: flex;
+    justify-content: center;
+  }
+  .sub_container_galeria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .container_contactanos {
+    display: block;
+    text-align: center;
+  }
+  .container_iconos {
+    margin-top: 25px;
+  }
+  footer {
+    display: block;
+    text-align: center;
+  }
+  .container_descripcion {
+    width: 100%;
+  }
+}
